@@ -8,7 +8,7 @@ node ./dist/index.js hoge
 ```
 
 Input:
-`hoge.txt`
+`./text/hoge.txt`
 
 ```text
 hoge.
@@ -24,7 +24,7 @@ piyo.
 piyo.
 ```
 
-Output: `hoge.tex`
+Output: `./out/hoge.tex`
 
 ```tex
 \hoge{
