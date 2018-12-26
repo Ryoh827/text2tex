@@ -13,16 +13,15 @@ Input:
 `./text/hoge.txt`
 
 ```text
-hoge.
-hoge.
+hoge。
 hoge.
 
-fuga.
-fuga.
-fuga.
+fuga。
+hoge、fuga。
+fuga。
 
 piyo.
-piyo.
+hoge、piyo.
 piyo.
 ```
 
@@ -31,7 +30,7 @@ Output: `./out/hoge.tex`
 ```tex
 \hoge{
 　hoge.hoge.hoge.\\
-　fuga.fuga.fuga.\\
-　piyo.piyo.piyo.\\
+　fuga.hoge,fuga.fuga.\\
+　piyo.hoge,piyo.piyo.\\
 }
 ```

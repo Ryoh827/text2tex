@@ -22,7 +22,7 @@ const main: () => void = (): void => {
     for (let i = 0; i < lines.length; i += 1) {
       const line = lines[i];
       if (line !== '') {
-        out += line;
+        out += line.replace('、', ',').replace('。', '.');
       } else {
         out += '\\\\\n';
         if (i !== lines.length - 1) {
